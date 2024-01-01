@@ -17,6 +17,7 @@ ports_description:
   80/tcp: WireGuard peers status API
   51820/udp: "WireGuard: forward this port in your router"
 hassio_api: true
+host_network: true
 privileged:
   - NET_ADMIN
 devices:
